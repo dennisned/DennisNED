@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+header {
+    background: url('bannerprofile.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    border-radius: 5px;
+    position: relative;
+}
+
+.header-text {
+    background: rgba(0, 0, 0, 0.5); /* Black background with 50% transparency */
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.container {
+    width: 93%;
+    margin: auto;
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 80%;
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+}
+
+.transparent-box {
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent black background */
+    padding: 1em;
+    border-radius: 5px; /* Rounded corners for the box */
+    color: white;
+    margin-bottom: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Typography Enhancements */
+h2 {
+    font-family: 'Roboto Slab', serif; /* Title font */
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif; /* Body text font */
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.profile-img + h2, /* First h2 under the profile image */
+.container h2 {
+    margin-top: 20px;
+}
+
+.container p {
+    margin: 8px 0;
+}
+
+#tagline { /* Specific style for unique text styles */
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #444;
+}
